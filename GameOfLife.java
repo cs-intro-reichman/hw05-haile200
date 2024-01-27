@@ -78,6 +78,7 @@ public class GameOfLife {
 					if (string.charAt(j-1) == 'x'){
 						board[i][j] = 1;
 					}else  {
+						// #feedback - no need to set zeros, the board already contains zeros, the default number in an integer array.
 						board[i][j] = 0;
 					}
 			}
